@@ -3,6 +3,7 @@
 
 > **Мощный набор инструментов для этичного хакинга и специалистов по безопасности**
 
+```bash
 # Установка одной командой
 curl -sL https://bit.ly/darkforge-install | bash
 ```
@@ -33,18 +34,18 @@ curl -sL https://bit.ly/darkforge-install | bash
 ### Kali Linux
 ```bash
 sudo apt update && sudo apt install -y curl
-curl -sL https://raw.githubusercontent.com/yourusername/darkforge-toolkit/main/install.sh | sudo bash
+curl -sL https://raw.githubusercontent.com/2OTERATAR/darkforge-toolkit/main/install.sh | sudo bash
 ```
 
 ### Termux (Android)
 ```bash
 pkg update && pkg install -y curl
-curl -sL https://raw.githubusercontent.com/yourusername/darkforge-toolkit/main/install.sh | bash
+curl -sL https://raw.githubusercontent.com/2OTERATAR/darkforge-toolkit/main/install.sh | bash
 ```
 
 ### Ручная установка
 ```bash
-git clone https://github.com/yourusername/darkforge-toolkit.git
+git clone https://github.com/2OTERATAR/darkforge-toolkit.git
 cd darkforge-toolkit
 chmod +x install.sh
 ./install.sh
@@ -117,7 +118,7 @@ python3 darkforge.py
 - `pycryptodome`
 
 ## 📜 Лицензия
-DarkForge Toolkit распространяется под **GNU General Public License v3.0** - см. [LICENSE](https://github.com/yourusername/darkforge-toolkit/blob/main/LICENSE).
+DarkForge Toolkit распространяется под **GNU General Public License v3.0** - см. [LICENSE](https://github.com/2OTERATAR/darkforge-toolkit/blob/main/LICENSE).
 
 ```diff
 + Этичный хакинг — не преступление, а необходимость для кибербезопасности.
@@ -127,4 +128,3 @@ DarkForge Toolkit распространяется под **GNU General Public L
 ---
 **Разработано с ❤️ командой Root@OSINT**  
 `Безопасность — это процесс, а не продукт`
-```
